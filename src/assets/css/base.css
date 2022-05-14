@@ -1,0 +1,19 @@
+/* .body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+} */
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  background-color: #0b0f43;
+}
+
+#app,
+body {
+  padding: 0;
+  margin: 0 auto;
+}
