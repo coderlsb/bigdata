@@ -1,27 +1,21 @@
-![image](https://github.com/coderlsb/bigdata/assets/85267498/4d5ecb4b-7032-49ba-8433-92eb4daa38e3)# 全国天气可视化大屏
+# 课程作业介绍
+![image](https://github.com/coderlsb/bigdata/assets/85267498/4d5ecb4b-7032-49ba-8433-92eb4daa38e3)# 展示全国天气可视化大屏
+### 后端参考：https://gaozhiyuan.net/python/weather-com-cn.html博客，爬取中国天气网的天气信息：http://www.weather.com.cn/textFC/hb.shtml，存入数据库，并使用djgo做后台传给前端进行展示，前端使用vue3+vuex+ts+echarts+datav进行展示，主要跟着学习的coderWhy老师的项目库，运用了其封装的请求函数和Echarts组件。
+![image](https://github.com/coderlsb/bigdata/assets/85267498/e5c4fec0-32a1-42c5-91d6-a2ca989fc3d3)
+#数据库样式
 
-## Project setup
-
+# 项目使用
+## 后端
+### 运行weather_admin后台中的spider代码，将数据存入数据库，再启动djgo。
+## 前端
+### 下载相关依赖
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+### 运行
 
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
 ```
 
 ### Customize configuration
